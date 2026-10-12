@@ -440,7 +440,8 @@ margin-bottom: 1.5rem;
 .event__img.is-in { animation: pop-in .8s var(--ease-spring) forwards, float 4s ease-in-out .8s infinite; }
 
 /* ---------- Countdown ---------- */
-.countdown { background: linear-gradient(to bottom, var(--cream-2), var(--cream) 30%, #fbe3e6 100%); padding-top: 2.6rem; padding-bottom: 4rem; }
+/*.countdown { background: linear-gradient(to bottom, var(--cream-2), var(--cream) 30%, #fbe3e6 100%); padding-top: 2.6rem; padding-bottom: 4rem; }*/
+.countdown { background: linear-gradient(to bottom, var(--cream), #fbe3e6); padding-top: 2.6rem; padding-bottom: 4rem; }
 .timer { display: grid; grid-template-columns: repeat(5, 1fr); gap: .3rem; margin: .4rem 0 0; }
 .timer__unit { display: flex; flex-direction: column; align-items: center; }
 .timer__num {
