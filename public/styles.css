@@ -69,8 +69,8 @@ section { position: relative; padding: 3.5rem 1.6rem; text-align: center; }
 .caps-title--dark { color: var(--ink-dark); }
 .caps-title .emoji { font-size: 1.3rem; margin-right: .2rem; display: inline-block; animation: twinkle 2.4s ease-in-out infinite; }
 .muted { font-style: italic; max-width: 22rem; margin: 0 auto 1.6rem; }
-.prose p { margin: 0 auto 1.1rem; max-width: 24rem; font-style: italic; font-size: 1.08rem; }
-.guest .prose p:first-child { font-family: var(--f-script); font-size: 2.2rem; color: var(--pink-deep); font-style: normal; margin-bottom: 1.5rem; }
+.prose p { margin: 0 auto 1.1rem; max-width: 26rem; font-style: italic; font-size: 1.3rem; }
+.guest .prose p:first-child { font-family: var(--f-script); font-size: 2.8rem; color: var(--pink-deep); font-style: normal; margin-bottom: 1.5rem; }
 
 /* ---------- Intro envelope ---------- */
 .intro {
