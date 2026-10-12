@@ -367,7 +367,7 @@ margin-bottom: 1.5rem;
 .wave path { fill: none; stroke: #b3a99a; stroke-width: 2.5; stroke-linecap: round; animation: wave-move 6s linear infinite; }
 
 /* ---------- RSVP ---------- */
-.rsvp { padding-top: 0.5rem; padding-bottom: 0.5rem; }
+.rsvp { padding-top: 0.5rem; padding-bottom: 1.5rem; }
 .rsvp__form { display: flex; flex-direction: column; gap: 1.1rem; text-align: left; }
 .hp { display: none; }
 .bubble { position: relative; background: #fffefb; border: 1px solid #ece4d3; border-radius: 22px; padding: 1.2rem; box-shadow: 0 10px 26px -14px rgba(90, 70, 40, .35); }
@@ -424,7 +424,7 @@ margin-bottom: 1.5rem;
 
 /* ---------- Schedule ---------- */
 /*.schedule { background: var(--cream-2); padding-bottom: 2rem; }*/
-.schedule { background: transparent; padding-top: 1rem; padding-bottom: 2rem; }
+.schedule { background: transparent; padding-top: 2rem; padding-bottom: 2rem; }
 .timeline { position: relative; margin-top: 1rem; }
 .timeline__path { position: absolute; inset: 0; width: 100%; height: 100%; z-index: 0; overflow: visible; }
 .timeline__path path { fill: none; stroke: #b9b0a2; stroke-width: 2.2; vector-effect: non-scaling-stroke; stroke-linecap: round; }
