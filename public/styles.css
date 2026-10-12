@@ -218,7 +218,7 @@ section { position: relative; padding: 3.5rem 1.6rem; text-align: center; }
 
 /* ---------- Couple ---------- */
 .couple { background: linear-gradient(to bottom, var(--cream) 0%, var(--sky) 14%, #dcd5ec 50%, var(--blush) 78%, var(--blush) 88%, var(--cream) 100%); padding-bottom: 4.5rem; }
-.couple .script-title { font-size: clamp(1.8rem, 7vw, 2.2rem); margin-bottom: 3.6rem; }
+.couple .script-title { font-size: clamp(1.8rem, 7vw, 2.2rem); margin-bottom: 5.5rem; }
 .couple__grid { display: grid; grid-template-columns: 1fr 1fr; gap: .9rem; }
 .polaroid { position: relative; margin: 0; }
 .polaroid__photo { background: #fff; padding: 8px; box-shadow: 0 12px 28px -10px rgba(80, 60, 90, .45); transition: transform .5s var(--ease-spring); }
