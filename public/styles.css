@@ -167,7 +167,7 @@ section { position: relative; padding: 3.5rem 1.6rem; text-align: center; }
 .bunting--wide { width: calc(100% + 3.2rem); margin: -1rem -1.6rem 2.5rem; }
 
 /* ---------- Hero ---------- */
-.hero { padding-top: 2.4rem; padding-bottom: 3.5rem; min-height: 100svh; display: flex; flex-direction: column; align-items: center; }
+.hero { padding-top: 2.4rem; padding-bottom: 3.5rem; min-height: auto; display: flex; flex-direction: column; align-items: center; }
 .hero > *:not(.doodles) { position: relative; z-index: 1; }
 .hero__title {
   font-family: var(--f-doodle); text-transform: uppercase;
