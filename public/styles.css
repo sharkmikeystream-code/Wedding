@@ -285,43 +285,50 @@ section { position: relative; padding: 3.5rem 1.6rem; text-align: center; }
 
 /* ---------- Gifts ---------- */
 .gifts {
-  padding: 0;
-  background: none;
+padding: 0;
+background: none;
+overflow: hidden;
 }
 
 .gifts__top,
 .gifts__bottom {
-  display: block;
-  width: 100%;
-  fill: var(--pink-deep);
+display: block;
+width: 100%;
+fill: var(--pink-deep);
+margin: 0;
+border: 0;
 }
 
 .gifts__top {
-  height: 120px;   /* было 80px */
-}
-
-.gifts__bottom {
-  height: 90px;    /* было 70px */
+height: 120px;
+margin-bottom: -1px;
 }
 
 .gifts__body {
-  background: var(--pink-deep);
-  color: #fff;
-  padding: 3rem 1.8rem 4rem;
-  margin: -1px 0;
+position: relative;
+background: var(--pink-deep);
+color: #fff;
+padding: 3rem 1.8rem 4rem;
+margin: 0;
+border: 0;
+}
+
+.gifts__bottom {
+height: 90px;
+margin-top: -1px;
 }
 
 .gifts__body p {
-  font-style: italic;
-  margin: 0 auto 1.4rem;
-  max-width: 24rem;
-  font-size: 1.2rem;
-  line-height: 1.8;
+font-style: italic;
+margin: 0 auto 1.4rem;
+max-width: 24rem;
+font-size: 1.2rem;
+line-height: 1.8;
 }
 
 .gifts .caps-title {
-  font-size: 2rem;
-  margin-bottom: 1.5rem;
+font-size: 2rem;
+margin-bottom: 1.5rem;
 }
 
 /* ---------- Calendar ---------- */
