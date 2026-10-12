@@ -275,8 +275,6 @@ section { position: relative; padding: 3.5rem 1.6rem; text-align: center; }
 
 /*
 .gifts { padding: 0; background: none; }
-.gifts__top, .gifts__bottom { display: block; width: 100%; height: 80px; fill: var(--pink-deep); }
-.gifts__bottom { height: 70px; }
 .gifts__body { background: var(--pink-deep); color: #fff; padding: 2rem 1.8rem 3rem; margin: -1px 0; }
 .gifts__body p { font-style: italic; margin: 0 auto 1rem; max-width: 24rem; }
 .gifts__icons { display: flex; justify-content: center; gap: 1.4rem; font-size: 1.8rem; padding-top: .4rem; }
